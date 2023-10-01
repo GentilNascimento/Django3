@@ -6,7 +6,7 @@ SECRET_KEY = '3$h4+lf1q3r-0p11b6ft-k6@z@(7r@-!k8*#^^xwcmgm(#dit!'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '34.70.112.10']
+ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -15,7 +15,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website'
+    'website', 'blog'
 ]
 
 MIDDLEWARE = [
